@@ -2,6 +2,25 @@
 
 /* --var pour mes couleurs TODO */
 
+
+
+:root{
+  --bleuCool : #264653;
+  --vertPastel: #2a9d8f;
+}
+/* test tailwind cdn
+.from-sky-400 {
+  --tw-gradient-from: var(--bleuCool);
+  --tw-gradient-to: var(--vertPastel);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(56 189 248 / 0));
+  
+*/
+
+
+
+.bite{
+  color: var(--bleuCool);
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
