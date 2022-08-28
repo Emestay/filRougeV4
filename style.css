@@ -18,14 +18,10 @@
 
 
 
-.bite{
-  color: var(--bleuCool);
-}
-body {
+html {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
-    overflow: overlay;
-    scroll-behavior: smooth;
+    overflow-x: hidden ;
     
 
     
@@ -33,17 +29,21 @@ body {
 }
 
 #bisous {
-    position: sticky;
+    position: fixed;
     top: 0px;
+    z-index: 50;
        
 }
 
+
+
 body::-webkit-scrollbar {
     width: 0.55rem;
+    background-color: transparent;
    
 }
 *::-webkit-scrollbar-track {
-    background-color: #edf2f7;
+    background-color: transparent;
     z-index: -10;
 }
 *::-webkit-scrollbar-thumb {
